@@ -5,31 +5,6 @@ from time import sleep
 import uuid, threading
 import time, random, string
 
-import platform, hashlib
-from time import strftime
-ngay=int(strftime('%d'))
-key1=str(ngay*1237646546+2318472)
-key = 'HaiDang-'+key1
-
-url = 'https://hdangdvmxh.000webhostapp.com/api/index.html?key='+key
-
-token_link1s = '5b233a2a4d592b536e6340391823aa72ed66aac4'
-link1s = requests.get(f'https://link1s.com/api?api={token_link1s}&url={url}').json()
-if link1s['status']=="error":
-        print(link1s['message'])
-        quit()
-else:
-        link_key=link1s['shortenedUrl']
-try:
-    from lequangminh import *
-except:
-    os.system('pip install lequangminh')
-    os.sys.exit()
-try:
-    from requests import *
-except:
-    os.system('pip install requests')
-    os.sys.exit()
 
 listsdt = ["0325676804", "0866467353", "84866467353", "866467353", "+84866467353"]
 # [ Format Print & Input,.. ]
