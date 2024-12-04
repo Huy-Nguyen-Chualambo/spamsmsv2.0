@@ -344,5 +344,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         time.sleep(3)
         sys.exit('\n'+SPAM().format_print('*', 'tool của An:)'))
-toolspamsms.py
-Đang hiển thị toolspamsms.py.
+#toolspamsms.py
+#Đang hiển thị toolspamsms.py.
